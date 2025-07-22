@@ -39,6 +39,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     defaultTheme="system"
                     enableSystem
                     disableTransitionOnChange
+                    storageKey="jotion-theme"
                 >
                     {children}
                 </ThemeProvider>
